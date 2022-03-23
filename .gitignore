@@ -1,4 +1,3 @@
 *.o
 st
-patches
 config.h
