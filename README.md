@@ -28,6 +28,13 @@ the st terminfo entry with the following command:
 
 See the man page for additional details.
 
+
+What additional features this fork includes?
+--------------------------------------------
+* anysize patch: resize st to any pixel size and centers the contatent so that
+the left/right and top/bottom borders are balanced
+* alpha patch: Adds background transparency to the terminal.
+
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
