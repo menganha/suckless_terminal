@@ -132,7 +132,7 @@ static const ColorScheme schemes[] = {
       "#0184bc", "#a626a4", "#0997b3", "#383a42",
 	  "#fafafa", "#e45649", "#50a14f", "#c18401",
 	  "#0184bc", "#a626a4", "#0997b3", "#383a42",
-	  [256]="#cccccc", "#555555"}, 7, 0, 256, 257},
+	  [256]="#555555", "#cccccc"}, 7, 0, 256, 257},
 
 	// Solarized dark
 	{{"#073642", "#dc322f", "#859900", "#b58900",
@@ -164,13 +164,13 @@ static const ColorScheme schemes[] = {
 };
 
 static const char * const * colorname;
-int colorscheme = 0;
+int colorscheme = 3;
 
 /*
  * IF ST_THEME env variable is set then it switches
  * to the below schemes if the value is "dark" or "light"
  */
-const char * envvarname = "ST_THEME";
+const char * envvarname = "MENGANHA_THEME";
 const int  light_colorscheme = 3;
 const int  dark_colorscheme = 1;
 
